@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { Mic, Send } from 'lucide-react';
-import HospitalHeader from './HospitalHeader';
 
 interface Message {
   id: string;
@@ -207,8 +206,11 @@ export default function TOMChat() {
 
   return (
     <div className="flex flex-col h-screen bg-white">
-      {/* Hospital Header */}
-      <HospitalHeader />
+      {/* Header */}
+      <div className="border-b border-gray-200 p-4">
+        <h1 className="text-2xl font-semibold text-gray-800 text-center">TOM</h1>
+        <p className="text-sm text-gray-500 text-center">Theatre Operations Manager</p>
+      </div>
 
       {/* Messages Container */}
       <div className="flex-1 overflow-y-auto px-4 py-6">
