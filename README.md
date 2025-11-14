@@ -5,6 +5,7 @@ An NHS DTAC compliant AI assistant for theatre operations, powered by Azure Open
 ## Features
 
 ✅ **ChatGPT-style interface** with natural conversation flow
+✅ **Customizable hospital header** - NHS branding with trust/hospital logo
 ✅ **Voice interaction** - Microphone input with speech recognition
 ✅ **Natural British male voice** - Azure TTS (en-GB-RyanNeural)
 ✅ **Real-time theatre data** - Connected to Firebase (medaskca-93d48)
